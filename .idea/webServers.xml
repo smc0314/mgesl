@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="20ebf724-f918-4259-a283-16b1c3e9eb0f" name="10.10.80.15">
+        <fileTransfer rootFolder="/home/smc" accessType="SFTP" host="10.10.80.15" port="22" sshConfigId="4f13d8fd-9b00-4637-9a3c-0802fb0b2b79" sshConfig="smc@10.10.80.15:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="dace4854-de63-43a2-96ea-9e19465dd8b8" name="sg">
+        <fileTransfer rootFolder="/public/home/detian" accessType="SFTP" host="192.168.126.81" port="22" sshConfigId="b15fa767-b67e-4f9b-b97f-b5dfdac94edc" sshConfig="detian@192.168.126.81:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
