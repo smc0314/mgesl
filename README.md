@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## Train Models
 #### Configure your own path
 ```
-main.py (line 240-256)、load_data.py (line 8-9, 33-34)、knowledge_graph (line 161-162)、save_data (line 48-60)
+main.py (line 240-256)、load_data.py (line 8-9, 33-34)、knowledge_graph.py (line 161-162)、save_data.py (line 48-60)
 ```
 
 
